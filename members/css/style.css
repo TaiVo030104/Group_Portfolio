@@ -23,28 +23,21 @@ html, body {
     flex-direction: column; 
     justify-content: center;
     align-items: center;
+    width: 100%;
+    max-width: 500px; 
     padding: 20px;
     box-sizing: border-box;
 }
 
 .avatar {
     margin-bottom: 20px;
-    width: 1000px; 
-    height: auto;
-    max-width: 100%;
+    width: 100%; 
+    max-width: 900px; 
+    height: auto; 
 }
 
 .info {
-    width: 100%;
     border: 1px solid;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.container p {
-    margin: 5px 0; 
-    font-size: 30px; 
 }
 
 .email a {
@@ -72,4 +65,7 @@ html, body {
     font-size: 25px;
     display: block;
     text-align: center;
+}
+.container a{
+    font-size: 20px; /* Tăng kích thước chữ lên (thay đổi giá trị theo nhu cầu) */
 }
