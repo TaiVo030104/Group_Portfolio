@@ -177,6 +177,7 @@ body {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.7);
 }
+<<<<<<< HEAD
 
 .Member {
     font-size: 24px; 
@@ -184,3 +185,5 @@ body {
     list-style-type: none; 
     margin-bottom: 10px;
 }
+=======
+>>>>>>> f4d2c0e (Revert "Thêm danh sách thành viên")
