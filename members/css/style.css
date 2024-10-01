@@ -23,21 +23,28 @@ html, body {
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    width: 100%;
-    max-width: 500px; 
     padding: 20px;
     box-sizing: border-box;
 }
 
 .avatar {
     margin-bottom: 20px;
-    width: 100%; 
-    max-width: 900px; 
-    height: auto; 
+    width: 1000px; 
+    height: auto;
+    max-width: 100%;
 }
 
 .info {
+    width: 100%;
     border: 1px solid;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container p {
+    margin: 5px 0; 
+    font-size: 30px; 
 }
 
 .email a {
