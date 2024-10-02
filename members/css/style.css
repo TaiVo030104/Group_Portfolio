@@ -159,9 +159,7 @@ html, body {
     display: block;
     text-align: center;
 }
-.container a{
-    font-size: 20px; /* Tăng kích thước chữ lên (thay đổi giá trị theo nhu cầu) */
-}
+
 /* Footer */
 .footer {
     background-color: #334eac;
