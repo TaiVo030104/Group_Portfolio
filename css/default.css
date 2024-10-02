@@ -98,11 +98,10 @@ body {
 .header__navbar-item:hover a {
     color: #f39c12;
 }
-
 /* Content */
 .content-item {
     text-align: center; 
-    margin-top: 10px; 
+    margin-top: 20px; 
 }
 
 .content-name {
@@ -120,17 +119,9 @@ body {
 
 .content-img img {
     max-width: 100%; 
-    height: auto;
-    border-radius: 20px;
-    object-fit: cover;
+    height: auto; 
 }
-.wrap-img{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: auto;
-}
+
 /* Footer */
 .footer {
     background-color: #334eac;
@@ -186,20 +177,10 @@ body {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.7);
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 469124e (Thêm thành viên)
 
 .Member {
     font-size: 24px; 
     text-align: center; 
     list-style-type: none; 
     margin-bottom: 10px;
-<<<<<<< HEAD
 }
-=======
->>>>>>> f4d2c0e (Revert "Thêm danh sách thành viên")
-=======
-}
->>>>>>> 469124e (Thêm thành viên)
