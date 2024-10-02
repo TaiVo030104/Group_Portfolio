@@ -8,6 +8,92 @@ html, body {
     font-family: 'Roboto', sans-serif;
     background-color: #f5f5f5;
 }
+/* Header */
+.header {
+    background-color: #334eac;
+    padding: 10px 20px;
+}
+
+.header__navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.header__navbar-name {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header__navbar-item {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 20px;
+}
+
+/* Đẩy "Kết nối" sang bên trái */
+.header__navbar-left {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.header__navbar-title--no-pointer {
+    color: white;
+}
+.header__navbar-right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.header__navbar-icon-link {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.header__navbar-icon {
+    font-size: 1.2rem;
+}
+
+.header__navbar-item-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.header__navbar-title--no-pointer {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.header__navbar-item--has-notify .header__navbar-icon {
+    position: relative;
+}
+
+.header__navbar-item--strong {
+    font-weight: bold;
+}
+
+.header__navbar-item--separate {
+    margin-right: 20px;
+}
+
+.header__navbar-item--strong:hover,
+.header__navbar-item:hover a {
+    color: #f39c12;
+}
 
 .app {
     display: flex;
@@ -16,11 +102,9 @@ html, body {
     width: 100%;
 }
 
-
 .container {
     flex-grow: 1;  /* Phần này sẽ giãn để chiếm hết phần còn lại giữa header và footer */
     display: flex; 
-    flex-direction: column; 
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -28,18 +112,20 @@ html, body {
 }
 
 .avatar {
-    margin-bottom: 20px;
-    width: 1000px; 
-    height: auto;
-    max-width: 100%;
+    width: auto; 
+    height: 600px;
+    max-width: 60%;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 .info {
+    text-align: left;
+    margin-left: 20px;
     width: 100%;
     border: 1px solid;
     padding: 20px;
     box-sizing: border-box;
-    text-align: center;
 }
 
 .container p {
@@ -73,3 +159,62 @@ html, body {
     display: block;
     text-align: center;
 }
+.container a{
+    font-size: 20px; /* Tăng kích thước chữ lên (thay đổi giá trị theo nhu cầu) */
+}
+/* Footer */
+.footer {
+    background-color: #334eac;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer__heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 40px; 
+}
+
+.footer-item {
+    margin: 10px 0;
+}
+
+.footer-item__link {
+    color: white;
+    text-decoration: none;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.footer-item__link:hover {
+    color: #f39c12;
+}
+
+.footer-item__icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.footer__bottom {
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+}
+
+.footer__text {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
