@@ -99,9 +99,14 @@ body {
     color: #f39c12;
 }
 /* Content */
+.content-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .content-item {
     text-align: center; 
-    margin-top: 20px; 
+    margin-top: 10px; 
 }
 
 .content-name {
@@ -120,6 +125,7 @@ body {
 .content-img img {
     max-width: 100%; 
     height: auto; 
+    border-radius: 50%;
 }
 
 /* Footer */
